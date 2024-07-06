@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("Basketball.jpg");
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.team {
+  text-align: center;
+}
+
+.team-name {
+  color: #031401;
+  border: 3px solid white;
+  font-size: 24px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.score {
+  font-size: 48px;
+  font-family: Cursed Timer ULiL;
+  background-color: black;
+  border: 2px solid darkred;
+  color: red;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.score-btn {
+  background-color: #dc0ca4;
+  color: white;
+  border: 1px solid black;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.score-btn:hover {
+  background-color: #eb5adf;
+}
